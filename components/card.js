@@ -1,3 +1,4 @@
+import Image from "next/image";
 import StaticNextImage from "shared/StaticNextImage";
 
 function Card() {
@@ -24,6 +25,7 @@ function Card() {
             width: "150px",
           },
         ]}
+        // className="rounded-[10px] web:w-[500px] tablet:w-[300px] w-[150px]"
         className="rounded-[10px]"
       />
       <div className="text-orange-500 web:text-green-500 tablet:text-blue-500">
