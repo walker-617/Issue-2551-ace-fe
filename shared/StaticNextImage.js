@@ -97,8 +97,7 @@ const StaticNextImage = ({
       width={parseInt(width, 10)}
       height={parseInt(height, 10)}
       onClick={onClick}
-      className="rounded-[10px] web:w-[500px] tablet:w-[300px] w-[150px]"
-      // className={styles}
+      className={styles}
       sizes={sizes}
       quality={100}
     />
